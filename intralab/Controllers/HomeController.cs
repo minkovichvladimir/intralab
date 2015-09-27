@@ -13,6 +13,11 @@ namespace intralab.Controllers
             return View();
         }
 
+        public ActionResult Services()
+        {
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Вектор /*не помню какой и где*/";
