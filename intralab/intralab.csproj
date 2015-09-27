@@ -133,6 +133,7 @@
     <Content Include="Content\images\ASP-NET-Banners-02.png" />
     <Content Include="Content\images\Banner-01-Azure.png" />
     <Content Include="Content\images\Banner-02-VS.png" />
+    <Content Include="Content\images\logo.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
