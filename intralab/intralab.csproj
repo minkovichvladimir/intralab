@@ -135,6 +135,15 @@
     <Content Include="Content\images\Banner-01-Azure.png" />
     <Content Include="Content\images\Banner-02-VS.png" />
     <Content Include="Content\images\logo.png" />
+    <Content Include="Content\images\services\Develop.png" />
+    <Content Include="Content\images\services\Equipment.png" />
+    <Content Include="Content\images\services\IPtelephony.png" />
+    <Content Include="Content\images\services\LAN.png" />
+    <Content Include="Content\images\services\Support.png" />
+    <Content Include="Content\images\services\UserMonitoring.png" />
+    <Content Include="Content\images\services\Videoconferencing.png" />
+    <Content Include="Content\images\services\Videosurveillance.png" />
+    <Content Include="Content\images\services\Wireless.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
