@@ -20,7 +20,7 @@ namespace intralab.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Вектор /*не помню какой и где*/";
+            ViewBag.Message = "Ваш вектор в цифровом мире";
 
             return View();
         }
