@@ -121,6 +121,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ServicesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -134,6 +135,15 @@
     <Content Include="Content\images\Banner-01-Azure.png" />
     <Content Include="Content\images\Banner-02-VS.png" />
     <Content Include="Content\images\logo.png" />
+    <Content Include="Content\images\services\Develop.png" />
+    <Content Include="Content\images\services\Equipment.png" />
+    <Content Include="Content\images\services\IPtelephony.png" />
+    <Content Include="Content\images\services\LAN.png" />
+    <Content Include="Content\images\services\Support.png" />
+    <Content Include="Content\images\services\UserMonitoring.png" />
+    <Content Include="Content\images\services\Videoconferencing.png" />
+    <Content Include="Content\images\services\Videosurveillance.png" />
+    <Content Include="Content\images\services\Wireless.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -142,6 +152,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Properties\PublishProfiles\intra lab.pubxml" />
     <None Include="Properties\PublishProfiles\intra-lab.pubxml" />
+    <None Include="Properties\PublishProfiles\intralab.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -169,6 +180,15 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Services.cshtml" />
+    <Content Include="Views\Services\Equipment.cshtml" />
+    <Content Include="Views\Services\LAN.cshtml" />
+    <Content Include="Views\Services\Wireless.cshtml" />
+    <Content Include="Views\Services\IPtelephony.cshtml" />
+    <Content Include="Views\Services\UserMonitoring.cshtml" />
+    <Content Include="Views\Services\Videosurveillance.cshtml" />
+    <Content Include="Views\Services\Videoconferencing.cshtml" />
+    <Content Include="Views\Services\Develop.cshtml" />
+    <Content Include="Views\Services\Support.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

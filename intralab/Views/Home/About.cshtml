@@ -1,16 +1,16 @@
 ﻿@{
     ViewBag.Title = "О нас";
 }
-<h2>@ViewBag.Title.</h2>
+<h2>@ViewBag.Title:</h2>
 <h3>@ViewBag.Message</h3>
 
 <div class="jumbotron">
-    <h1>Intra Lab</h1>
+    <h1>intra lab</h1>
     <p class="lead">
-        Intra Lab - молодая, развивающаяся компания на рынке IT услуг
+        Мы - молодая, развивающаяся компания на рынке IT услуг
         и разработки программного обеспечения
     </p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <p><a href=@Url.Action("Services","Home") class="btn btn-primary btn-lg">Наши услуги &raquo;</a></p>
 </div>
 
 <p>Нас мало, но мы в тельняшках</p>
