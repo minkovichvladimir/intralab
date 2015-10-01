@@ -130,14 +130,11 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\images\ASP-NET-Banners-01.png" />
-    <Content Include="Content\images\ASP-NET-Banners-02.png" />
-    <Content Include="Content\images\Banner-01-Azure.png" />
-    <Content Include="Content\images\Banner-02-VS.png" />
     <Content Include="Content\images\banner\01.png" />
     <Content Include="Content\images\banner\02.png" />
     <Content Include="Content\images\banner\03.png" />
     <Content Include="Content\images\banner\04.png" />
+    <Content Include="Content\images\logo 2.png" />
     <Content Include="Content\images\logo.png" />
     <Content Include="Content\images\services\Develop.png" />
     <Content Include="Content\images\services\Equipment.png" />
