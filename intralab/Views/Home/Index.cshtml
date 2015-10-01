@@ -11,16 +11,16 @@
     </ol>
     <div class="carousel-inner" role="listbox">
         <div class="item active">
-            <img src="~/Content/images/ASP-NET-Banners-01.png" alt="ASP.NET" class="img-responsive">
+            <img src="~/Content/images/banner/01.png" alt="LAN" class="img-responsive">
         </div>
         <div class="item">
-            <img src="~/Content/images/Banner-02-VS.png" alt="Visual Studio" class="img-responsive">            
+            <img src="~/Content/images/banner/02.png" alt="keyboard" class="img-responsive">            
         </div>
         <div class="item">
-            <img src="~/Content/images/ASP-NET-Banners-02.png" alt="Package Management" class="img-responsive">
+            <img src="~/Content/images/banner/03.png" alt="server" class="img-responsive">
         </div>
         <div class="item">
-            <img src="~/Content/images/Banner-01-Azure.png" alt="Microsoft Azure" class="img-responsive">
+            <img src="~/Content/images/banner/04.png" alt="board" class="img-responsive">
         </div>
     </div>
     <!--Controls-->
@@ -32,36 +32,32 @@
     </a>*@
 </div>
 
+<div class="jumbotron">
+    @*<h1>intra lab</h1>*@
+    <img src="~/Content/images/logo.png" width="300" title="Wireless" alt="Wireless" style="margin-top:15px" />
+    <p class="lead">
+        <br />
+        Мы - молодая, развивающаяся компания на рынке IT услуг
+        и разработки программного обеспечения
+    </p>
+    <p><a href=@Url.Action("Services","Home") class="btn btn-primary btn-lg">Наши услуги &raquo;</a></p>
+</div>
+
 <div class="row">
-    <div class="col-md-4">
-        <h3>Проектирование и организация локальных сетей, сетей предприятий</h3>
-        <p>
-            Проектирование локальной вычислительной сети представляет собой достаточно сложный процесс.
-            Начинается он с разработки технического задания, которое следует тщательно продумать,
-            так как недочеты в нем грозят последующими трудностями в построении сети и дополнительными
-            финансовыми затратами. Первичное проектирование можно произвести с помощью специальных конфигураторов,
-            которые позволят подобрать оптимальное сетевое оборудование.
-            Мы предлагамт решения на базе оборудования Juniper Networks, Extreme Networks.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+    <div class="col-md-3" style="text-align:center">
+        <h3>IT аутсорс предприятий</h3>
+        <p><a class="btn btn-default" href=@Url.Action("Services", "Home")>Подробнее &raquo;</a></p>
     </div>
-    <div class="col-md-4">
-        <h3>Мониторинг деятельности пользователей</h3>
-        <p>
-            Оптимизации бизнес-процессов на современном предприятии происходит с помощью внедрения в структуру
-            компании системы мониторинга. Это специализированное решение позволяет производить качественную оценку
-            эффективности работы, как определённых групп сотрудников, так и персональную оценку качества работы
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    <div class="col-md-3" style="text-align:center">
+        <h3>Проектирование и организация ЛВС</h3>
+        <p><a class="btn btn-default" href=@Url.Action("LAN", "Services")>Подробнее &raquo;</a></p>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-3" style="text-align:center">
         <h3>Системы видеонаблюдения:</h3>
-        <p>
-            Современные системы безопасности обеспечивают высокий уровень защиты от потенциальных факторов угроз и
-            позволяют добиться высокой эффективности и контроля на объектах промышленного и жилого назначения.
-            С помощью систем видеонаблюдения (СВ) корпоративная служба безопасности может вести круглосуточный мониторинг
-            событий на промышленном комплексе, группе предприятий или в офисном здании.
-        </p>
-        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+        <p><a class="btn btn-default" href=@Url.Action("Videosurveillance", "Services")>Подробнее &raquo;</a></p>
+    </div>
+    <div class="col-md-3" style="text-align:center">
+        <h3>IT аутсорс предприятий</h3>
+        <p><a class="btn btn-default" href=@Url.Action("Services", "Home")>Подробнее &raquo;</a></p>
     </div>
 </div>
