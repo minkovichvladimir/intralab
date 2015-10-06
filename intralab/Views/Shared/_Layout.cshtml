@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title – IT Решения</title>
@@ -35,7 +35,14 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year – intra lab</p>
+            <div class="row">
+                <div class="col-md-6" style="text-align:left">
+                    <p>&copy; @DateTime.Now.Year – intra lab</p>
+                </div>
+                <div class="col-md-6" style="text-align:right">
+                    <p>*Мы устанавливаем только Лицензионное ПО</p>
+                </div>
+            </div>
         </footer>
     </div>
 

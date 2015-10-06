@@ -144,7 +144,6 @@
     <Content Include="Content\images\services\UserMonitoring.png" />
     <Content Include="Content\images\services\Videoconferencing.png" />
     <Content Include="Content\images\services\Videosurveillance.png" />
-    <Content Include="Content\images\services\Wireless\banner.png" />
     <Content Include="Content\images\services\Wireless\Wireless.png" />
     <Content Include="Content\images\services\Wireless\Wireless2_01.png" />
     <Content Include="Content\images\services\Wireless\Wireless2_02.png" />
